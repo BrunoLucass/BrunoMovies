@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-:root {
-  --color-primary: #4d41c0;
-  --bg-gray: #e8e8e8;
-}
-
 * {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
-    background-color: var(--bg-gray);
+  background-color: #ddd;
 }
 
-a, a:hover {
+header {
+  background-color: #4d41c0;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a,
+a:hover {
   text-decoration: none;
   color: unset;
 }
